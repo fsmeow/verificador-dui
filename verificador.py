@@ -6,7 +6,7 @@ def isDui(input):
         # El primer número a la izquierda está en la posición 9; el segundo, 8, el tercero, 7; etc...
         posicion = 9
         sumaMultiplicaciones = 0
-        # Se multiplican los primeros 7 números por su posición y se suman los resultados
+        # Se multiplican los primeros 8 números por su posición y se suman los resultados
         for i in range(0, 8):
             sumaMultiplicaciones += int(input[i]) * posicion
             posicion-= 1
